@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  db:
+    image: postgres:11
+    environment:
+      POSTGRES_USER: vapor
+      POSTGRES_DB: vapor
+      POSTGRES_PASSWORD: vapor
+    ports:
+      - 5432:5432
