@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "sss-berlin-19",
+    name: "sss-19",
     platforms: [
         .macOS(.v10_14)
     ],
